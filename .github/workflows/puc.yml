@@ -1,0 +1,13 @@
+name: Aula Puc 
+
+on:
+  workflow_dispatch:
+
+jobs:
+  acao_inicial_job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Imprime Aula teste
+        run: echo "Aula Teste"
+      - name: Imprime Finalizado
+        run: echo "Finalizado"
